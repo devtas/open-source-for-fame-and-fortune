@@ -68,6 +68,9 @@
 		tweendeck.prev = function() {
 			tweenTo(positionIndex-1);
 		};
+		tweendeck.goTo = function(step) {
+        		tweenTo(step);
+    		};
 
 		return tweendeck;
 	};
